@@ -1,5 +1,7 @@
 package day3;
 
+import java.util.Scanner;
+
 public class PerfectNumber {
 	public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in) ;
@@ -10,7 +12,7 @@ public class PerfectNumber {
 
 		int num=sc.nextInt();
 		
-		int flag=0
+		int flag=0;
 
 		for(int i=1;i<num;i++) {
 
@@ -41,7 +43,6 @@ public class PerfectNumber {
  
 
 }
-	}
-
 	
-}
+
+

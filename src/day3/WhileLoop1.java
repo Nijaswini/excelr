@@ -13,7 +13,7 @@ public class WhileLoop1 {
 
 				System.out.println("Virat Kohli "+i);
 
-				i=i--;
+				i=i-2;
 
 			}
 

@@ -36,5 +36,13 @@ mahendra singh dhoni
 PascalCase : MahendraSinghDhoni    // for class name we will follow pascal case
 camelCase : mahendraSinghDhoni 
 
+// git init 
+/// git add .
+/// git commit -m "title "
+/// git remote add origin https://github.com/Nijaswini/excelr.git
+/// git push -u origin main
+/// 
+ */
+
 
 

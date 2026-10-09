@@ -1,0 +1,14 @@
+package day4;
+
+public class Rotate {
+	 public static void main(String[] args) {        
+		 int[] arr = {1, 2, 3, 4, 5};         
+		 int k = 2;         
+		 int n = arr.length;        
+		 k = k % n;         
+		 System.out.print("Rotated Array: ");         
+		 for (int i = 0; i < n; i++) {             
+			 System.out.print(arr[(i + k) % n] + " ");         
+			 }    
+		 } 
+}

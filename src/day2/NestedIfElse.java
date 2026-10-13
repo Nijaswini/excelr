@@ -2,7 +2,7 @@ package day2;
 import java.util.Scanner;
 public class NestedIfElse {
 	public static void main(String[] args) {
-		Scanner    sc          = new Scanner(System.in);   //how to make an object in java
+		Scanner sc = new Scanner(System.in);   //how to make an object in java
 	
 		System.out.println("Enter your percentage");       //AdultAndMinor     age>=18
 		
@@ -32,4 +32,4 @@ public class NestedIfElse {
 	}
 
 }
-}
+

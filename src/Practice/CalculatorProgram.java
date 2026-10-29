@@ -10,7 +10,7 @@ public class CalculatorProgram {
 		double number2;
 		char operator;
 		double result=0;
-		
+		boolean validOperation;
         System.out.print("Enter The First Number: ");
 		number1 = scanner.nextDouble();
 	
@@ -32,7 +32,16 @@ public class CalculatorProgram {
 		switch(operator) {
 		   case '+' -> result = number1 + number2 ;
 		   case '-' -> result = number1 - number2 ;
-		   case '/' -> result = number1 / number2 ;
+		   case '/' -> { 
+				   if(number2==0) {
+					   System.out.println(" cannot divide by zero");
+			           validOperation = false;
+			       }
+				   else { result= number1 / number2;
+				   
+				   }
+			   
+		   }
 		   case '^' -> result = Math.pow(number1, number2);
 		   default -> {
 	        System.out.println("Error: Invalid operator entered.");
